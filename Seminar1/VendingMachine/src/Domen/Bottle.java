@@ -1,7 +1,6 @@
 package Domen;
 public final class Bottle extends Product {
     private int volume;
-
     /**
      *  Class Bottle
      * @param productId         Id продукта
