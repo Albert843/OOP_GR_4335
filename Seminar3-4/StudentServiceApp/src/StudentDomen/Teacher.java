@@ -41,6 +41,6 @@ public class Teacher extends User{
                 ", age = " + super.getAge() +
                 ", grade = " + getGrade() +
                 ", subject = " + getSubject() +
-                '}';
+                '}' + "\n";
     }
 }
