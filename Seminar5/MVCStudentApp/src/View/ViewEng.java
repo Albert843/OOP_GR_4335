@@ -1,5 +1,6 @@
 package View;
 import java.util.List;
+import java.util.Scanner;
 import Controller.iGetView;
 import Model.Student;
 public class ViewEng implements iGetView {
@@ -10,9 +11,10 @@ public class ViewEng implements iGetView {
         }
         System.out.println("----------end of the list-------------");
     }
-
     @Override
     public String prompt(String message) {
-        return null;
+        Scanner in = new Scanner(System.in);
+        System.out.print(message);
+        return in.nextLine();
     }
 }
